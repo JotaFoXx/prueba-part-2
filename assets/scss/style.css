@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  background-color: white !important;
+  border-radius: 2px !important;
+  width: 130px;
+  height: 45px;
+}
+
+.colum {
+  height: 550px;
+  background-color: rgb(208, 208, 208);
+  border: solid 1px;
+}/*# sourceMappingURL=style.css.map */
