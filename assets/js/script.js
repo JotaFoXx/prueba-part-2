@@ -49,16 +49,7 @@ offcanvas.addEventListener('click' , function(){
 //Popover
 const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
 const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-// Obtener elementos del Dom
-const miPopover = document.getElementById('popover');
-let popoverInstance = new bootstrap.Popover(miPopover);
 
-//Crear instancia
-miPopover.addEventListener('click', function () {
-  miPopover.setAttribute('data-bs-content' , contenido);
-
-  popoverInstance.dispose();
-  popoverInstance = new bootstrap.Popover(miPopover);
 })
 
 //toast
