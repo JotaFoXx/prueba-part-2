@@ -12,7 +12,7 @@ function guardarDatos(){
 btnform.addEventListener('click', function(event) {
     event.preventDefault();
     guardarDatos();
-      alert('Datos guardados');
+      alert('Cambiado');
   });
 
 
